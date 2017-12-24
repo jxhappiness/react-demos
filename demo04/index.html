@@ -8,16 +8,14 @@
   <body>
     <div id="example"></div>
     <script type="text/babel">
-      var HelloMessage = React.createClass({
-        render: function() {
-          return <h1>Hello {this.props.name}</h1>;
-        }
+      var HelloMessage=React.createClass({
+      render:function(){
+      return <h1>hello,{this.props.name}</h1>
+      }
       });
-
       ReactDOM.render(
-        <HelloMessage name="John" />,
-        document.getElementById('example')
-      );
+      <HelloMessage name='zhuyu'/),
+      document.getElementById('example');
     </script>
   </body>
 </html>
